@@ -1,7 +1,11 @@
 ## Amazon e-commerce
-This website has all the functionalities like adding items to the basket, delete item from the basket, and we can also request for the order which has been done by the stripe payment method and then we can also see our ordered items which has been done by firebase cloud firestore database.
+This website has the functionalities like
+* Adding items to the basket
+* Delete item from the basket
+* We can also request for the order (which has been done by the stripe payment method) 
+* we can also see our ordered items (which has been done by firebase cloud firestore database).
 
-* use card detail as 424242...42..42......(consitently till card detail fills)
+Note: use card detail as 424242...42..42......(consitently till card detail fills)
 
 Try it now
 
