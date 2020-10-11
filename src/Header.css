@@ -1,0 +1,125 @@
+.header-container{
+  position: sticky;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background: #131921;
+  z-index: 300;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  min-height: 60px;
+  width: 100%;
+  color: white;
+  background-color: #131921;
+  z-index: 100;
+
+  position: relative;
+}
+.header-logo {
+  object-fit: contain;
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 11px;
+}
+.header-search {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-search-bottom {
+  display: none;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.header-search-input,
+.header-search-input-bottom {
+  font-size: 1rem;
+  border: none;
+  height: 30px;
+  width: 100%;
+  border-top-left-radius: 2.7px;
+  border-bottom-left-radius: 2.7px;
+}
+.header-search-icon,
+.header-search-icon-bottom {
+  padding: 5px;
+  height: 22px !important;
+  color: black;
+  background: #f3ad51;
+  border-top-right-radius: 2.7px;
+  border-bottom-right-radius: 2.7px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-option {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 10px;
+  color: white;
+}
+.header-option-lineOne {
+  font-size: 11px;
+  font-weight: 400;
+}
+.header-option-lineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header-optionBasket {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.basket-icon{
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 63px;
+  }
+  .header-logo {
+    margin: 0 8px;
+    margin-top: 11px;
+    width: 80px;
+  }
+  .header-search {
+    display: none;
+  }
+  .header-search-bottom {
+    display: flex;
+    background: #131921;
+    position: sticky;
+    top: 55px;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    /* padding:0 10px; */
+    z-index: 100;
+    padding-bottom: 7px;
+  }
+  .header-search-input-bottom {
+    width: 85%;
+  }
+  .header-option {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 3px;
+    font-size: 80%;
+  }
+  .header-optionBasket {
+    margin-left: 5px;
+  }
+}

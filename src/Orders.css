@@ -1,0 +1,19 @@
+.orders-container{
+    display: flex;
+    justify-content: center;
+}
+.orders{
+    width: 100rem;
+    /* background: white; */
+    padding: 0 0 20px 0;
+}
+.orders > h1 {
+    background: white;
+    padding: 5px 10px 10px 10px;
+    border-bottom: 1px solid lightgray;
+}
+@media screen and (max-width:600px){
+    html {
+        font-size: 90%;   
+    }
+}
