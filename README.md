@@ -3,8 +3,8 @@ This website has the functionalities like
 * Full User authentication in which user can login or create new account and User's details will be private 
 * Adding items to the basket
 * Delete item from the basket
-* We can also request for the order (which has been done by the stripe payment method) 
-* we can also see our ordered items (which has been done by firebase cloud firestore database).
+* User can also request for orders (which has been done by the stripe payment method) 
+* User can also see their ordered items (which has been done by firebase cloud firestore database).
 
 Note: use card detail as 424242...42..42......(consitently till card detail fills)
 
