@@ -1,6 +1,6 @@
 ## Amazon e-commerce
 This website has the functionalities like
-* Full User authentication in which user can create his account and User's details will be private 
+* Full User authentication in which user can login to his account and User's details will be private 
 * Adding items to the basket
 * Delete item from the basket
 * We can also request for the order (which has been done by the stripe payment method) 
