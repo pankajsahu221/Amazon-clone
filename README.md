@@ -1,7 +1,7 @@
 ## Amazon 
 This website has all the functionalities like adding items to the basket, delele item from the basket, and we can also request for the order which has been done by the stripe payment method and then we can also see our ordered items which has been done by firebase cloud firestore database.
 
-* use card detail as 424242...42..42..(consitantly till card detail fills)
+* use card detail as 424242...42..42......(consitently till card detail fills)
 
 Try it now
 
