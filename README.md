@@ -1,3 +1,10 @@
+## Amazon 
+This website has all the functionalities like adding items to the basket, delele item from the basket, and the most craziest thing is we can request for the order which has been done by the stripe payment method and then we can also see our ordered items.
+
+Try it now
+
+https://clone-bd001.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
