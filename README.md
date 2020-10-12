@@ -1,4 +1,4 @@
-## Amazon e-commerce 
+## Amazon e-commerce  
 This website has the functionalities like
 * Full User authentication in which user can login or create new account and User's details will be private 
 * Adding items to the basket
