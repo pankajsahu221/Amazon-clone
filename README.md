@@ -1,8 +1,8 @@
 ## Amazon e-commerce
 This website has the functionalities like
 * Full User authentication in which user can login or create new account and User's details will be private 
-* Adding items to the basket
-* Delete item from the basket
+* Adding items to the basket  (Using context api)
+* Delete item from the basket  (Using context api)
 * User can also request for orders (which has been done by the stripe payment method) 
 * User can also see their ordered items (which has been done by firebase cloud firestore database).
 
