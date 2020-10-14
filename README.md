@@ -12,6 +12,8 @@ Try it now
 
 https://clone-bd001.web.app/
 
+![screenshot](https://github.com/pankajsahu221/Amazon-clone/blob/main/src/amazon-shot.JPG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
